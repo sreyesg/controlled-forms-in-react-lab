@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+article{
+  background-color: #888;
+
+}
+
+.bookCardsDiv{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 16px;
+}
+article h1{
+  font-size: 1.5 em;
+
+}
+.bookshelfDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+form{
+  gap: 20px;
+}
